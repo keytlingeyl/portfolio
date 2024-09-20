@@ -17,11 +17,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="overlay">
   <!--Header-->
   <section class="header"> 
     <nav>
-      <a href="index.html"> <img src="images/finallogo.png"></a>
+      <a href="index.html"> <img src="images/logo-name.png"></a>
       <input type="checkbox" style=opacity:0;>
       <div class="toggle"> 
         <span class="up common"></span>
@@ -31,137 +31,136 @@
       <div class="menu">
         <h>MENU</h>
         <ul> 
-          <li><a href="index.html">ABOUT ME</a></li>
-          <li><a href="aboutus.html">SERVICES</a></li>
-          <li><a href="products.html">PROJECTS</a></li>
-          <li><a href="contacts.html">CONTACTS</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#iprojects">PROJECTS</a></li>
+          <li><a href="#bop">CONTACTS</a></li>
         </ul>
       </div>
     </nav>
   </section>
 	<!--Center Text-->
 	<section class="greetings">
+    <iframe src="background/bubbles.html" frameborder="0" width="100%" height="100%" class="bubbles-iframe"></iframe>
 	  <div class="pic">
 	    <img src="images/caitlin.svg">
 	  </div>
 		<div class="text-box">
-      <p>Hi, I'm <b>Caitlin Gail Abizar</b></p>
+      <p>Hi, I'm <b>Caitlin Gail Dalaniel Abizar</b></p>
       <p>Independent <span></span></p>
       <p class="des">I create web and graphic designs</p>
-      <a href="" class="btn1">Download Resume</a>
+      <div class="btns">
+        <a target="_blank" class="btn1" href="https://drive.google.com/file/d/1ZmR3sr-EaHtqdffMLWsOs76s1i-0n_bC/view?usp=drive_link">Download Resume</a>
+        <a target="_blank" href="https://www.facebook.com/caitlingail.abizar" class="btn1">Hire Me</a>
+      </div>
       <!--div class="b1">
         <a href="businessplan.html">Resume</a>
       </div-->
     </div>
   </section>
   <!---------------------Summary-------------------->
-  <section id="About" class="summary">
+  <canvas id="background-canvas"></canvas>
+  <section id="about" class="summary">
     <h1>About Me</h1>
-    <p>The COVID-19 pandemic has highlighted the essential role of disinfectants in maintaining hygiene. Prior to the pandemic, sanitizers and alcohol were already utilized to clean hands and stop the spread of germs. However, the outbreak has brought alcohol to the forefront as a means of combating the virus. With this in mind, our group has come up with a business idea to provide scented sanitizers that not only kill 99.99% of germs, but also have a pleasant smell.
-		<br>
-		Our group has brainstormed different names for the business and eventually voted for "SANPERTON", a combination of the words "sanitizer", "perfume", and "newton". The name was chosen as it is catchy and may attract the attention of students.</p>
-		<p>Initially, our target market was senior high school students at Parañaque National High School-Main, but we have realized that junior high school students, as well as teachers and non-teaching personnel, may also be interested in our product. We conducted marketing research among senior high school students to better understand their preferences for sanitizers, including the scents they prefer, the sizes they consider suitable, and the prices they can afford (ranging from 40-60 PHP).</p>
-		<p>Based on our marketing research, we have come up with strategies to promote our product. We aim to reduce our environmental impact by offering a 20% discount on the next purchase for buyers who return an empty bottle of our sanitizer. The empty bottles will be traded for new ones with our bottle suppliers.</p>
+    <p>
+      Hello! I'm <b>Caitlin Gail D. Abizar</b>, a 2nd-year Computer Science student with a passion for where technology meets creativity. As a curious and innovative individual, I'm constantly exploring the intersection of code and design, where functionality meets aesthetics.
+    </p>
+    <p>
+      With a strong foundation in computer science, I'm well-versed in programming languages such as []. However, my interests extend beyond the realm of code. I'm also an art enthusiast with a flair for design, and I believe that a beautiful user experience is just as important as a well-written algorithm.
+    </p>
+    <p>
+      In my free time, you can find me experimenting with graphic design, photography, or digital art. I'm fascinated by the way design can influence human behavior and perception, and I'm always looking for ways to incorporate my creative skills into my technical projects.
+    </p>
+    <p>
+      Through this e-portfolio, I aim to showcase my technical skills, design sensibilities, and creative projects that bring together the best of both worlds. I'm excited to share my journey with you and explore the possibilities of where technology and art collide.
+    </p>
   </section>
+  
   <!--Services-->
   
-  <section id="Services" class="services">
+  <section id="services" class="services">
     <h1>Services Offered</h1>
     <div class="row">
 			<div class="sercol">
 				<h3>Web</h3>
-				<p>The goal of our business is to produce high-quality, organic, scented hand sanitizers that promote proper hygiene and safety among our customers and offer an effective alternative for disease protection. We aim to leave a legacy and raise awareness about the importance of self-care to prevent illnesses.</p>
-				<a href="" class="samplesbtn">Samples</a>
-			</div>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<div class="samplesbtn">
+          <a href="">Samples</a>
+        </div>
+      </div>
 			<div class="sercol">
-				<h3>Vision</h3>
-				<p>To be the number one supplier of the best quality, uniquely made, long-lasting hand sanitizer in the Philippines. Our company will be the most valued and trusted when it comes to increasing self-appeal and hygiene.</p>
-				<a href="" class="samplesbtn">Samples</a>
-			</div>
+				<h3>Portrait</h3>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<div class="samplesbtn">
+          <a href="">Samples</a>
+        </div>
+      </div>
 			<div class="sercol">
 				<h3>Illustrator</h3>
-				<p>Our mission is to reduce the number of individuals affected by COVID-19 and other illnesses caused by bacteria and viruses. We aim to achieve this by providing a reliable and effective alternative solution to hand washing. Our top-notch, long-lasting hand sanitizer will not only promote self-appeal and hygiene, but also ensuy hand sanitizers in the Philippines.</p>
-				<a href="" class="samplesbtn">Samples</a>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<div class="samplesbtn">
+          <a href="">Samples</a>
+        </div>
 			</div>
 	  </div>
     </section>
-	
-  <!----Featured Projects---------------
-	<section class="iprojects">
-	  <h1 id="iprojects">Illustrations</h1>
-    <div class="container1">
-      <div class="ibox1">
-        <img src="images/i11.png" class="i1">
-        
-      </div>
-      <div class="container2">
-        <div class="row">
-          <div class="ibox2">
-            <img src="images/i2.png" class="i2">
-          </div>
-          <div class="ibox2">
-            <img src="images/i2.png" class="i2">
-          </div>
-          <div class="ibox2">
-            <img src="images/i4.jpg" class="i2">
-          </div>
-        </div>
-        <div class="row">
-          <div class="bi5">
-            <img src="images/i5.png" class="i5">
-          </div>
-          <div class="bi5">
-            <img src="images/i6.png" class="i5">
-          </div>
-          <div class="bi5">
-            <img src="images/i7.png" class="i5">
-          </div>
-        </div>
-      </div>
-    </div>
-	</section>
--->
+
 <!----Featured Projects--------------->
-	<section class="iprojects">
+	<section id="iprojects" class="iprojects">
 	  <h1 id="iprojects">Illustrations</h1>
-	  <div class="containerbox">
-    <div class="icolumns">
-      <div class="ibox1">
-        <img src="images/i11.png" class="i1">
+	  <div class="icontainerbox">
+      <div class="icolumns">
+        <div class="ibox1">
+          <img src="images/i11.png" class="i1">
         
+        </div>
       </div>
-    </div>
-    <div class="icolumns">
-      <div class="iboxes2">
-        <img src="images/i2.png" class="i2">
+      <div class="icolumns">
+        <div class="iboxes2">
+         <img src="images/i2.png" class="i2">
+        </div>
+        <div class="iboxes3">
+          <img src="images/i5.png" class="i5">
+        </div>
       </div>
-      <div class="iboxes3">
-        <img src="images/i5.png" class="i5">
+      <div class="icolumns">
+        <div class="iboxes3">
+          <img src="images/i6.png" class="i5">
+        </div>
+        <div class="iboxes2">
+          <img src="images/logo.png" class="i2">
+        </div>
       </div>
-    </div>
-    <div class="icolumns">
-      <div class="iboxes3">
-        <img src="images/i6.png" class="i5">
+      <div class="icolumns">
+        <div class="iboxes2">
+          <img src="images/i4.jpg" class="i2">
+        </div>
+        <div class="iboxes3">
+          <img src="images/i7.png" class="i5">
+        </div>
       </div>
-      <div class="iboxes2">
-        <img src="images/i2.png" class="i2">
-      </div>
-    </div>
-    <div class="icolumns">
-      <div class="iboxes2">
-        <img src="images/i4.jpg" class="i2">
-      </div>
-      <div class="iboxes3">
-        <img src="images/i7.png" class="i5">
-      </div>
-    </div>
     </div>
 	</section>
 
-  <section class="wprojects">
+  <section id="wprojects" class="wprojects">
     <h1 id="wprojects">Web Designs</h1>
-    <div class="container">
-      
+    <div class="wcontainerbox">
+      <div class="wcolumns">
+        <div class="wboxes">
+          <img src="images/pic1.png" class="wpic">
+        </div>
+        <div class="wboxes">
+          <img src="images/pic2.png" class="wpic">
+        </div>
+      </div>
+      <div class="wcolumns">
+        <div class="wboxes">
+          <img src="images/pic2.png" class="wpic">
+        </div>
+        <div class="wboxes">
+          <img src="images/pic1.png" class="wpic">
+        </div>
+      </div>
     </div>
   </section>
 
@@ -185,11 +184,10 @@
 		<script src="rating.js"></script>
 		</section>
 		
-    </section>
   <!-----------------Encouragement------------------>
-    <section class="bop">
+    <section id="bop" class="bop">
         <h1>Buy And Try Our Products <br> Anywhere From The World</h1>
-        <a href="#contactform" class="b2">CONTACT US</a>
+        <a href="#contactform" class="b2">TALK TO ME</a>
     </section>
 
   <!-----------------Contact Form------------------>
@@ -255,7 +253,7 @@
     <footer>
         <div class="row">
             <div class="footcol">
-                <img src="images/finallogo.png" class="logo">
+                <img src="images/logo-name.png" class="logo">
                 <p>Support our group by buying our products. Together, let's promote health and cleanliness. </p>
             </div>
             <div class="footcol">
